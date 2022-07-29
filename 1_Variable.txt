@@ -1,0 +1,6 @@
+-- In Sass we can have variables which can store stuff like color, sizes etc.
+e.g. $variable = variable_value
+
+-- These variable has global and local scope as well.
+-- You can make local variable into global one by using "!global" keyword.
+-- Try to define all your global keyword into _global.scss file. Considered best practise.

@@ -1,0 +1,15 @@
+-- Mixin is a reusable piece of code in scss. This allow us even more compact code.
+e.g.,
+	@mixin name {
+  		property: value;
+  		property: value;
+  		...
+	}
+
+-- Once mixin is written, you can use anywhere and to use it we implement "@include" keyword
+e.g.,
+	selector {
+  		@include mixin-name;
+	}
+
+-- Mixins can be used inside another mixin as well. 

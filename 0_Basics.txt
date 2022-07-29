@@ -1,0 +1,8 @@
+BASIC
+-- Sass is a CSS pre-processor. Meaning you write less code and it get complied to css.
+
+-- Sass allows you write things like variables, mixins, do calculation in css part.
+
+-- Sass does require a complier though and has .scss extenstion
+
+-- Scout App is free compiler. You can you nodejs and npm too

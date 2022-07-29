@@ -1,0 +1,9 @@
+-- import is scss allows us to include small scss file from outside.
+e.g.,
+	@import filename;
+
+-- When importing other scss files, there is no need to write ".scss" part.
+-- Usually when we make small scss file we name them partials like "_filename.scss".
+-- This way compiler understand it's a partial and it doesn't need seprate css file.
+
+-- These partials are usually imported into a root file and then that root file is compiled into final css.
