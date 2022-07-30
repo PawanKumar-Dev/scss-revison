@@ -1,0 +1,24 @@
+-- Extend works pretty similar to include i.e. it allows to include another piece of css code into our current css.
+-- @extend works with normal scss code not just mixins.
+-- With @extend --> your code become more compact and dry.
+
+e.g.,
+
+	.button-basic  {
+  		border: none;
+  		padding: 15px 30px;
+  		text-align: center;
+  		font-size: 16px;
+  		cursor: pointer;
+	}
+
+	.button-report  {
+  		@extend .button-basic;
+  		background-color: red;
+	}
+
+	.button-submit  {
+  		@extend .button-basic;
+  		background-color: green;
+  		color: white;
+	}

@@ -12,4 +12,16 @@ e.g.,
   		@include mixin-name;
 	}
 
--- Mixins can be used inside another mixin as well. 
+-- Mixins can be used inside another mixin as well.
+
+-- Mixin act like a function. It can accept variables as argument as well.
+e.g.,
+	@mixin bordered($color, $width) {
+  		border: $width solid $color;
+	}
+
+-- You can even provide default value to Mixin
+e.g.,
+	@mixin bordered($color: blue, $width: 1px) {
+  		border: $width solid $color;
+	}
